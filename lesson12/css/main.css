@@ -1,0 +1,38 @@
+.header {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 20px;
+  /* можно заменить родителя знаком '&' */
+}
+.header span {
+  display: block;
+}
+.header:hover {
+  background-color: #0f0f0f;
+}
+/* .font {
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height:1.7;
+}  Можно делать встроенные алгоримты
+.header {
+	.font;
+	padding:20px;
+} */
+/* .font() { из-за скобок"()"
+	font-size: 20px;
+	text-transform: uppercase; В коде не будет отображаться, но хранит значения, можно вписывать и экономить время
+	line-height:1.7;
+} */
+/*можно вставлять название, вместо самого цвета*/
+/*так можно делать и с другими свойствами*/
+/* .font(@fz:20px) { и в других свойствах.font можно в () подставлять другие значения
+	font-size: @fz;
+	text-transform: uppercase;
+	line-height:1.7;
+} 
+. section-header {
+	.font(15px); бужет fz:15px;
+	background-color: #fff;
+	color:#999;
+} */
